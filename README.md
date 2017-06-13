@@ -54,3 +54,10 @@ A: Always welcome! <3
 Q: I found a huge piece of garbage in your code.
 
 A: That's great! Now we can discuss about that if you want. Btw, shitty things inside that project is pretty normal. Just relax and have fun!
+
+Q: List of supported countries/banks please?
+
+A:
+
+1. Russia: Central Bank of the Russian Federation
+2. Ukraine: National Bank of Ukraine
