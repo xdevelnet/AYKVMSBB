@@ -15,7 +15,7 @@ This program is created to retreive currencies from online sources. The common f
 3. Possibility to omit year or year&month when specifying the date.
 4. Specifying day from future returns results from previous month.
 5. Uses XML api.
-6. If XML api supports currency nominal (amount of currency for value),
+6. If XML api supports currency nominal (amount of currency for value), displays is among with currency value.
 7. Fast engineless embedded database.
 
 ## Usage
