@@ -26,7 +26,7 @@ struct {
 
 #include "util.h"
 #include "rodata.h"
-#include "subroutines.h"
+#include "subroutines.c"
 
 int main(int argc, char **argv) {
 	collect_and_check_data();

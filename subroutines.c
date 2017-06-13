@@ -1,8 +1,6 @@
 #ifndef AYKVMSBB_CURRENCIES_ROUTINES_H
 #define AYKVMSBB_CURRENCIES_ROUTINES_H
 
-#include "rodata.h"
-
 bool check_if_locale_available_and_choose_db_entry(const char *locale, size_t *entry) {
 	size_t iterator = 0;
 	while (forever) {
