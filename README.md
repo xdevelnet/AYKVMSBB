@@ -54,7 +54,7 @@ A: Always welcome! <3
 
 Q: I found a huge piece of garbage in your code.
 
-A: That's great! Now we can discuss about that if you want. Btw, shitty things inside this project is nothing unusual. Just relax and have fun!
+A: Just as planned. Now we can discuss about that if you want. Btw, shitty things inside this project is nothing unusual. Just relax and have fun!
 
 Q: List of supported countries/banks please?
 
