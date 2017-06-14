@@ -107,9 +107,16 @@ static inline void parse_cmd(int argc, char * const * const argv) {
 	}
 }
 
-static inline void collect_and_check_data() {
+static void collect_and_check_data() {
 	required_data.currency_locale = getenv(LOCALE_DETECT_ENV_VAR);
-	if (required_data.currency_locale == NULL) fall(ERR_NO_APPROPRIATE_ENV_VAR);
+	if (required_data.currency_locale == NULL or required_data.currency_locale[0] == '\0') {
+		setlocale(LC_ALL, "");
+		required_data.currency_locale = setlocale(LC_NUMERIC, NULL);
+		if (required_data.currency_locale == NULL) fall(ERR_NO_APPROPRIATE_ENV_VAR);
+		static char lc_numeric_str[15];
+		required_data.currency_locale = strncpy(lc_numeric_str, required_data.currency_locale, strizeof(lc_numeric_str));
+		setlocale(LC_ALL, "C");
+	}
 	if (check_if_locale_available_and_choose_db_entry(required_data.currency_locale, &required_data.db_entry) == false) fall(ERR_NO_COUNTRY_IMPLEMENTED);
 
 	time_t t = time(NULL);

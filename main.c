@@ -14,6 +14,7 @@
 #include <netdb.h>
 #include <errno.h>
 #include <poll.h>
+#include <locale.h>
 
 struct {
 	const char *currency_locale;
