@@ -35,28 +35,28 @@ Step 3. You may also wish to install it - just copy aykvmsbb binary to any ENV d
 
 ## More
 
-Q: Is it really useful?
+Q: *Is it really useful?*
 
 A: I would rather say that it is "handy" rather than "useful". Typing "ay" and pressing "TAB" will complete program name, then you can press ENTER button immediatly, or add currency as argument, needed date, or both.
 
-Q: So, what exactly AYKVMSBB means?
+Q: *So, what exactly AYKVMSBB means?*
 
 A: AYKVMSBB stands for "ALLO YOBA KURS VALYT MNE SYDA BISTRO BLYAT" which is transliterated russian phrase. Rough translation: 
 "Hey, Yoba, give me exchange rates here, faster, bitch".
 
-Q: How to add my country/bank?
+Q: *How to add my country/bank?*
 
 A: Check out contents of rodata.h and fill in new records to database.
 
-Q: Pull request?
+Q: *Pull request?*
 
 A: Always welcome! <3
 
-Q: I found a huge piece of garbage in your code.
+Q: *I found a huge piece of garbage in your code.*
 
 A: Just as planned. Now we can discuss about that if you want. Btw, shitty things inside this project is nothing unusual. Just relax and have fun!
 
-Q: List of supported countries/banks please?
+Q: *List of supported countries/banks please?*
 
 A:
 
