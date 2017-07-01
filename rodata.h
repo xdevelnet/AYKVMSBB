@@ -350,7 +350,7 @@ const char *const currencies[] = { // const... const... CONSTANT POINTERS, FATAS
 	"XPT", // Platinum
 	"XAG", // Silver
     NULL
-}; // I'm tired with adding currencies. Please PR me with full list and additional comments like at "UAH" and "JPY" above
+};
 
 // ERRORS!
 
