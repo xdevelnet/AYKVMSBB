@@ -61,4 +61,4 @@ Q: *List of supported countries/banks please?*
 A:
 
 1. Russia: Central Bank of the Russian Federation
-2. Ukraine: National Bank of Ukraine
+2. Ukraine: National Bank of Ukraine -- temporary not available due to API change, check issue#2
